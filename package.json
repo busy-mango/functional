@@ -28,16 +28,17 @@
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
-  "dependencies": {},
-  "peerDependencies": {},
+  "dependencies": {
+    "type-fest": "^4.26.1"
+  },
   "devDependencies": {
-    "@modern-js/module-tools": "2.60.2",
     "@biomejs/biome": "1.8.3",
-    "typescript": "~5.0.4",
+    "@modern-js/module-tools": "2.60.2",
     "@types/node": "~16.11.7",
-    "rimraf": "^6.0.1",
     "lint-staged": "~13.1.0",
-     "simple-git-hooks": "^2.11.1"
+    "rimraf": "^6.0.1",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "~5.0.4"
   },
   "sideEffects": [],
   "publishConfig": {

@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
     "allowJs": true,
     "baseUrl": ".",
+    "downlevelIteration": true,
     "declaration": true,
     "emitDeclarationOnly": true,
     "esModuleInterop": true,
